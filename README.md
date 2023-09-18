@@ -17,9 +17,9 @@ It does not provide a great usability and code quality. It also does not impleme
 1) install plugin
 2) create a course
 3) add the activity module to the course
-4) enable in the activity module settings "Activity completion" -> "Adaptivity rule"
-5) add some questions to the question bank
-6) view/try the activity module
+4) enable in the activity module settings "Activity completion" -> "Completion tracking" -> Show activity as complete when conditions are met ("Adaptivity rule" is just in the ui, i don't think it's value is actually used anywhere, at least it's state is not loaded from db when creating the form. Leave "Student must view this activity to complete it" unchecked)
+6) add some questions to the question bank
+7) view/try the activity module
 
 It will now list just all added questions. My aim was to work with multiplechoice questions, but it should also work with other question types.
 The questions are numbered 1a, 1b, 2a, 2b, ... as a test for custom question numbering (Default is just 1, 2, 3, ...).
